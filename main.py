@@ -16,13 +16,14 @@ app = Flask(__name__)
  
 @app.route("/")
 def index():
-    return render_template('upload.html')
+    return render_template('upload1.html')
  
 @app.route("/hello",methods=['POST','GET'])
 def hello():
  if request.method == 'POST':
-    X=request.form
-    return render_template('index.html',name=X)
+    #X=request.form
+    f = request.files['file']
+    return "file uploaded               #render_template('index.html',name=X)
  
 if __name__ == "__main__":
     app.run()
