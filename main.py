@@ -26,7 +26,7 @@ def hello():
  if request.method == 'POST':
     #X=request.form
     f = request.files['file']
-    return "file uploaded               #render_template('index.html',name=X)
+    return "file uploaded"               #render_template('index.html',name=X)
  
 if __name__ == "__main__":
     app.run()
