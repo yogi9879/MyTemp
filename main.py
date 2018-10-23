@@ -22,7 +22,7 @@ def index():
 def hello():
  if request.method == 'POST':
         X=request.form
-        return x
+        return X
     
  
 if __name__ == "__main__":
