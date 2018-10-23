@@ -22,8 +22,7 @@ def index():
 def hello():
  if request.method == 'POST':
        # X=request.form
-        return "sudhir"
-    
+    return render_template('index.html')
  
 if __name__ == "__main__":
     app.run()
