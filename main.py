@@ -21,7 +21,8 @@ def index():
 @app.route("/hello",methods=['POST','GET'])
 def hello():
  if request.method == 'POST':
-        return "YOYO"
+        X=request.form
+        return x
     
  
 if __name__ == "__main__":
