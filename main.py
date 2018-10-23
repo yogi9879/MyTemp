@@ -13,7 +13,7 @@ app = Flask(__name__)
 def index():
     return render_template('upload.html')
  
-@app.route("/hello",methods = ['POST', 'GET'])
+@app.route("https://lib12.azurewebsites.net/hello%20method%20=?nm=yogesh",methods = ['POST', 'GET'])
 def hello():
     return "Hello World!"
  
