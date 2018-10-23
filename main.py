@@ -11,7 +11,7 @@ from flask import Flask, render_template #, request,make_response
 #from flask import render_template
 #from FlaskWeb import app
 
-pp = Flask(__name__)
+app = Flask(__name__)
 
  
 @app.route("/")
