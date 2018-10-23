@@ -9,7 +9,7 @@ Created on Sun Oct 21 10:02:30 2018
 from flask import Flask, render_template #, request,make_response
 from datetime import datetime
 #from flask import render_template
-from FlaskWeb import app
+#from FlaskWeb import app
 
 app = Flask(__name__)
 
@@ -18,9 +18,9 @@ app = Flask(__name__)
 def index():
     return render_template('upload.html')
  
-#@app.route("https://lib12.azurewebsites.net/hello%20method%20=?nm=yogesh",methods = ['POST', 'GET'])
-#def hello():
- #   return "Hello World!"
+@app.route("/hello")
+def hello():
+    return "Hello World!"
  
  
 if __name__ == "__main__":
