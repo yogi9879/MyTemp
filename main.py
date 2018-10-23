@@ -22,7 +22,7 @@ def index():
 def hello():
  if request.method == 'POST':
     X=request.form
-    return render_template('index.html')
+    return render_template('index.html',name=X)
  
 if __name__ == "__main__":
     app.run()
