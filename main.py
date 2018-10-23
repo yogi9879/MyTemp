@@ -7,10 +7,12 @@ Created on Sun Oct 21 10:02:30 2018
 """
 
 from flask import Flask, render_template #, request,make_response
-app = Flask(__name__)
 from datetime import datetime
-from flask import render_template
-from FlaskWeb import app
+#from flask import render_template
+#from FlaskWeb import app
+
+pp = Flask(__name__)
+
  
 @app.route("/")
 def index():
