@@ -32,8 +32,8 @@ def hello():
  if request.method == 'POST':
     #X=request.form
     f = request.files['file']
-    dataset=pd.read_csv(f)
-    results=sub.Model(dataset)
+    #dataset=pd.read_csv(f)
+    #results=sub.Model(dataset)
     return "HI"             #render_template('index.html',name=X)
  
 
