@@ -16,7 +16,7 @@ from werkzeug.datastructures import ImmutableMultiDict
 #from sklearn.svm import SVR
 #from sklearn.cross_validation import cross_val_score
 #import sub
-
+import pandas as pd
 #from flask import render_template
 #from FlaskWeb import app
 
@@ -25,7 +25,7 @@ app = Flask(__name__)
  
 @app.route("/")
 def index():
-    return  render_template('upload1.html')
+    return "gigig" # render_template('upload1.html')
  
 @app.route("/hello",methods=['POST','GET'])
 def hello():
