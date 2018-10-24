@@ -32,7 +32,9 @@ def hello():
  if request.method == 'POST':
     #X=request.form
     f = request.files['file']
-    return "file uploaded"               #render_template('index.html',name=X)
+    dataset=pd.read_csv(f)
+    results=sub.Model(dataset)
+    return results             #render_template('index.html',name=X)
  
 
  
