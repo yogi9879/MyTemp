@@ -10,7 +10,7 @@ from flask import Flask, render_template, request, make_response
 from datetime import datetime
 from werkzeug import secure_filename
 from werkzeug.datastructures import ImmutableMultiDict
-import pandas 
+import pandas as pd
 #import matplotlib.pyplot as plt
 #import numpy as np
 #from sklearn.svm import SVR
@@ -34,7 +34,7 @@ def hello():
     f = request.files['file']
     dataset=pd.read_csv(f)
     results=sub.Model(dataset)
-    return results             #render_template('index.html',name=X)
+    return "HI"             #render_template('index.html',name=X)
  
 
  
