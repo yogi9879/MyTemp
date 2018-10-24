@@ -25,7 +25,7 @@ def Model(dataset):
 	dataset=dataset.dropna()
 	train_y=dataset.iloc[:,-1]
 	# Feature Scaling
-	
+	from sklearn.preprocessing import StandardScaler
 	sc_X = StandardScaler()
 	sc_y = StandardScaler()
 	#test = sc_X.fit_transform(test)
