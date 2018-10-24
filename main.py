@@ -15,7 +15,7 @@ import pandas as pd
 #import numpy as np
 #from sklearn.svm import SVR
 #from sklearn.cross_validation import cross_val_score
-import sub
+#import sub
 
 #from flask import render_template
 #from FlaskWeb import app
@@ -32,8 +32,8 @@ def hello():
  if request.method == 'POST':
     #X=request.form
     f = request.files['file']
-    #dataset=pd.read_csv(f)
-    #results=sub.Model(dataset)
+    dataset=pd.read_csv(f)
+    results=sub.Model(dataset)
     return "HI"             #render_template('index.html',name=X)
  
 
