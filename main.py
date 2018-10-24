@@ -33,7 +33,7 @@ def hello():
     #X=request.form
     f = request.files['file']
     dataset=pd.read_csv(f)
-    results=sub.Model(dataset)
+    #results=sub.Model(dataset)
     return "HI"             #render_template('index.html',name=X)
  
 
