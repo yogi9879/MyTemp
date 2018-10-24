@@ -12,7 +12,7 @@ from werkzeug import secure_filename
 from werkzeug.datastructures import ImmutableMultiDict
 import flask
 #import matplotlib.pyplot as plt
-import numpy as np
+#import numpy as np
 #from sklearn.svm import SVR
 #from sklearn.cross_validation import cross_val_score
 #import sub
@@ -25,7 +25,7 @@ app = Flask(__name__)
  
 @app.route("/")
 def index():
-    return  "gg"     #render_template('upload1.html')
+    return  "3gg"     #render_template('upload1.html')
  
 @app.route("/hello",methods=['POST','GET'])
 def hello():
