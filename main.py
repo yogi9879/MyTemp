@@ -12,7 +12,7 @@ from werkzeug import secure_filename
 from werkzeug.datastructures import ImmutableMultiDict
 #import pandas as pd
 #import matplotlib.pyplot as plt
-#import numpy as np
+import numpy as np
 #from sklearn.svm import SVR
 #from sklearn.cross_validation import cross_val_score
 #import sub
