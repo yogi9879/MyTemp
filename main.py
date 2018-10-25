@@ -26,21 +26,6 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return "gikgig" # render_template('upload1.html')
- '''
-@app.route("/hello",methods=['POST','GET'])
-def hello():
- if request.method == 'POST':
-    #X=request.form
-    f = request.files['file']
- #   dataset=pd.read_csv(f)
-    #results=sub.Model(dataset)
-    return "HI"             #render_template('index.html',name=X)
- '''
-
- 
-
- 
- 
  
 if __name__ == "__main__":
     app.run()
