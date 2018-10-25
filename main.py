@@ -29,7 +29,7 @@ def result():
 
 
  
-@app.route("hello/")
+@app.route("/hello")
 def index():
     return "gikgig" # render_template('upload1.html')
  
