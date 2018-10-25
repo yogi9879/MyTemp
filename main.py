@@ -10,11 +10,9 @@ from flask import Flask, render_template,request, make_response
 from datetime import datetime
 from werkzeug import secure_filename
 from werkzeug.datastructures import ImmutableMultiDict
-#import flask
-#import matplotlib.pyplot as plt
-#import numpy 
-#from sklearn.svm import SVR
-#from sklearn.cross_validation import cross_val_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVR
+import matplotlib.pyplot as plt
 import sub
 #import pandas as pd
 #from flask import render_template
