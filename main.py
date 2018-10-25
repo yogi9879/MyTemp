@@ -26,7 +26,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return "gikgig" # render_template('upload1.html')
- 
+ '''
 @app.route("/hello",methods=['POST','GET'])
 def hello():
  if request.method == 'POST':
@@ -35,7 +35,7 @@ def hello():
  #   dataset=pd.read_csv(f)
     #results=sub.Model(dataset)
     return "HI"             #render_template('index.html',name=X)
- 
+ '''
 
  
 
