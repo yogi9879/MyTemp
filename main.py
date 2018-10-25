@@ -12,7 +12,7 @@ from werkzeug import secure_filename
 from werkzeug.datastructures import ImmutableMultiDict
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import sub
 #import pandas as pd
 #from flask import render_template
