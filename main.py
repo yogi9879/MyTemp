@@ -25,7 +25,7 @@ app = Flask(__name__)
 @app.route('/',methods = ['POST', 'GET'])
 def result():
   
-      return render_template("upload.html")
+      return render_template("upload1.html")
 
 
  
